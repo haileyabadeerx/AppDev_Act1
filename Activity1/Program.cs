@@ -4,10 +4,11 @@ public class GenshinArchons
 {
     public static void Main(string[] args)
     {
+        string UserYN;
 
         do
         {
-            Console.WriteLine("<<Genshin Archon Finder>>");
+            Console.WriteLine("\n<<Genshin Archon Finder>>");
 
             string[] Archons = { "Barbatos - Venti", "Morax - Zhongli", "Beelzebub - Raiden Ei", "Buer - Nahida", "Focalors - Furina", "Murata - Mavuika", "Tsaritsa - Unknown" };
 
@@ -32,10 +33,17 @@ public class GenshinArchons
             }
 
             Console.WriteLine("\nDo you want to search for another one? \nType Yes or No:");
-        } while (Console.ReadLine().ToLower() == "yes");
+            UserYN = Console.ReadLine().ToLower();
+        } while (UserYN == "yes");
 
-        Console.WriteLine("\nWrong input. Exiting the program now...");
-
+        if (UserYN == "no")
+        {
+            Console.WriteLine("\nEnjoy your Teyvat Journeys!");
+        }
+        else
+        {
+            Console.WriteLine("\nWrong input. Exiting the program now...");
+        }
     }
 }
 
