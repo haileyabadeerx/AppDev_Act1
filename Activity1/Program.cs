@@ -9,7 +9,7 @@ public class GenshinArchons
 
         do
         {
-            Console.WriteLine("<<Genshin Archon Finder>>");
+            Console.WriteLine("\n<<Genshin Archon Finder>>");
 
             string[] Archons = { "Barbatos - Venti", "Morax - Zhongli", "Beelzebub - Raiden Ei", "Buer - Nahida", "Focalors - Furina", "Murata - Mavuika", "Tsaritsa - Unknown" };
 
