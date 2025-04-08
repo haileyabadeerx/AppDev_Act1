@@ -15,7 +15,6 @@ public class GenshinArchons
 
             Console.WriteLine("\n1. Mondstadt \n2. Liyue \n3. Inazuma \n4. Sumeru \n5. Fontaine \n6. Natlan \n7. Snezhnaya\n");
             Console.Write("Enter the number of the region you want to find: ");
-            //string Arch = Console.ReadLine();
 
             if (int.TryParse(Console.ReadLine(), out int index))
             {
@@ -30,7 +29,8 @@ public class GenshinArchons
             }
             else
             {
-                Console.WriteLine("\nInput out of bounds.");
+                Console.WriteLine("\nInvalid input. Please try again.");
+
             }
 
             Console.WriteLine("\nDo you want to search for another one? \nType Yes or No:");
