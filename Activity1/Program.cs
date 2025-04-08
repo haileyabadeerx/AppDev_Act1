@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System;
+﻿using System;
 
 public class GenshinArchons
 {
@@ -36,7 +34,7 @@ public class GenshinArchons
             Console.WriteLine("\nDo you want to search for another one? \nType Yes or No:");
         } while (Console.ReadLine().ToLower() == "yes");
 
-        Console.WriteLine("Wrong input. Exiting the program now...");
+        Console.WriteLine("\nWrong input. Exiting the program now...");
 
     }
 }
