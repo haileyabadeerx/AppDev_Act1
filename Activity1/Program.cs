@@ -15,7 +15,6 @@ public class GenshinArchons
 
             Console.WriteLine("\n1. Mondstadt \n2. Liyue \n3. Inazuma \n4. Sumeru \n5. Fontaine \n6. Natlan \n7. Snezhnaya\n");
             Console.Write("Enter the number of the region you want to find: ");
-            //string Arch = Console.ReadLine();
 
             if (int.TryParse(Console.ReadLine(), out int index))
             {
