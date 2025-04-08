@@ -36,6 +36,8 @@ public class GenshinArchons
             Console.WriteLine("\nDo you want to search for another one? \nType Yes or No:");
         } while (Console.ReadLine().ToLower() == "yes");
 
+        Console.WriteLine("Wrong input. Exiting the program now...");
+
     }
 }
 
