@@ -22,12 +22,12 @@ public class GenshinArchons
                 }
                 else
                 {
-                    Console.WriteLine("\nThere are only 7 regions in Teyvat.");
+                    Console.WriteLine("\nThere are only 7 regions in Teyvat.\n");
                 }
             }
             else
             {
-                Console.WriteLine("\nInvalid input. Please try again.");
+                Console.WriteLine("\nInvalid input. Please try again.\n");
 
             }
 
