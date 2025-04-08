@@ -30,7 +30,7 @@ public class GenshinArchons
             }
             else
             {
-                Console.WriteLine("\nWrongxxxxxx");
+                Console.WriteLine("\nInput out of bounds.");
             }
 
             Console.WriteLine("\nDo you want to search for another one? \nType Yes or No:");
